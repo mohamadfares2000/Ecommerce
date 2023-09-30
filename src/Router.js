@@ -1,9 +1,9 @@
 import React from 'react';
 
 import {useRoutes} from "react-router-dom";
-import SignUp from './components/sign up/SignUp';
+import SignUp from './pages/sign up/SignUp';
 import HomePage from './pages/homePage/HomePage';
-import SignIn from './components/sign in/SignIn';
+import SignIn from './pages/sign in/SignIn';
 
 function Router(props) {
     const routes = useRoutes([

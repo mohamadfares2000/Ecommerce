@@ -1,6 +1,6 @@
 import React from 'react'
 import { Cards, Container, FlexBox, FlexColum, StyledImage, Typography } from '../../App.Styled'
-import insatagram from "../../assets/insatagram.svg"
+import insatagram from "../../assets/images/insatagram.svg"
 
 
 export default function Instagram() {

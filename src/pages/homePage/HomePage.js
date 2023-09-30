@@ -5,6 +5,11 @@ import ProductCarousel from './ProductCarousel';
 import Instagram from './Instagram';
 import Offer from '../../components/offer section/Offer';
 import NavBar from '../../components/navBar/NavBar';
+import HeroSection from './HeroSection';
+import FeatureSection from './FeatureSection';
+import { Newsletters } from './NewLetters';
+import Footer from '../../components/Footer/Footer';
+
 
 
 function HomePage(props) {
@@ -13,10 +18,14 @@ function HomePage(props) {
         <>
             {show && <Offer handelShow={() => setShow((prev) => !prev)}/>}
             <NavBar/>
+            <HeroSection/>
             <Categories/>
-            <Shopbrands/>
             <ProductCarousel/>
+            <Shopbrands/>
+            <FeatureSection/>
+            <Newsletters/>
             <Instagram/>
+            <Footer/>
         </>
     );
 }
